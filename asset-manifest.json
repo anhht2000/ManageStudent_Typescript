@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ManageStudent_Typescript/static/css/main.c57ddfaf.chunk.css",
+    "main.js": "/ManageStudent_Typescript/static/js/main.fd882a1c.chunk.js",
+    "main.js.map": "/ManageStudent_Typescript/static/js/main.fd882a1c.chunk.js.map",
+    "runtime-main.js": "/ManageStudent_Typescript/static/js/runtime-main.9b2f3911.js",
+    "runtime-main.js.map": "/ManageStudent_Typescript/static/js/runtime-main.9b2f3911.js.map",
+    "static/css/2.c55f41dc.chunk.css": "/ManageStudent_Typescript/static/css/2.c55f41dc.chunk.css",
+    "static/js/2.3852f442.chunk.js": "/ManageStudent_Typescript/static/js/2.3852f442.chunk.js",
+    "static/js/2.3852f442.chunk.js.map": "/ManageStudent_Typescript/static/js/2.3852f442.chunk.js.map",
+    "index.html": "/ManageStudent_Typescript/index.html",
+    "static/css/2.c55f41dc.chunk.css.map": "/ManageStudent_Typescript/static/css/2.c55f41dc.chunk.css.map",
+    "static/css/main.c57ddfaf.chunk.css.map": "/ManageStudent_Typescript/static/css/main.c57ddfaf.chunk.css.map",
+    "static/js/2.3852f442.chunk.js.LICENSE.txt": "/ManageStudent_Typescript/static/js/2.3852f442.chunk.js.LICENSE.txt",
+    "static/media/loading-32.c4bec487.gif": "/ManageStudent_Typescript/static/media/loading-32.c4bec487.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b2f3911.js",
+    "static/css/2.c55f41dc.chunk.css",
+    "static/js/2.3852f442.chunk.js",
+    "static/css/main.c57ddfaf.chunk.css",
+    "static/js/main.fd882a1c.chunk.js"
+  ]
+}
