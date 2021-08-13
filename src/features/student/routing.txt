@@ -1,0 +1,17 @@
+/admin/students/list:
+  -search by name
+  -filter by city
+  -sort by mark
+  -pagination
+/admin/students/add:
+  -use react hook form and yup to add form
+/admin/students/edit:studentId:
+/admin/students/list:
+
+stateStudent {
+  loading,
+  filter (params to call api)
+  list,
+  pagination,
+
+}

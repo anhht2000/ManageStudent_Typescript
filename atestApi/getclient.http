@@ -1,0 +1,2 @@
+@baseUrl =http://js-post-api.herokuapp.com/api
+GET {{baseUrl}}/students?_limit=5&_page=1&_order=asc&_sort=mark
