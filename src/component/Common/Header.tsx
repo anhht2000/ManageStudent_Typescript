@@ -11,6 +11,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { useAppDispatch } from "app/hooks";
 import { logout } from "features/auth/authSlice";
 import React from "react";
+import firebase from "firebase";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -45,37 +46,33 @@ export default function Header() {
     setAnchorEl(null);
   };
   const handleLogoutClick = () => {
+    firebase.auth().signOut();
     dispatch(logout());
     handleClose();
   };
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position='static'>
         <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
-          >
+          <IconButton edge='start' className={classes.menuButton} color='inherit' aria-label='menu'>
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant='h6' className={classes.title}>
             Admin Manager
           </Typography>
           {auth && (
             <div>
               <IconButton
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
+                aria-label='account of current user'
+                aria-controls='menu-appbar'
+                aria-haspopup='true'
                 onClick={handleMenu}
-                color="inherit"
+                color='inherit'
               >
                 <AccountCircle />
               </IconButton>
               <Menu
-                id="menu-appbar"
+                id='menu-appbar'
                 anchorEl={anchorEl}
                 anchorOrigin={{
                   vertical: "top",
