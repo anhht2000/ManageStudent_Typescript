@@ -30,26 +30,12 @@ const LoginPage = (props: LoginPageProps) => {
     history.push(`/admin`);
   }
 
-  //
-  var firebaseConfig = {
-    apiKey: "AIzaSyD5zTIY2xw9KA2_BBrWB5vLFE4xQSRF9rk",
-    authDomain: "test-393e4.firebaseapp.com",
-    projectId: "test-393e4",
-    storageBucket: "test-393e4.appspot.com",
-    messagingSenderId: "33265717266",
-    appId: "1:33265717266:web:f7cd942483592fc3f448cb",
-    measurementId: "G-9Y43FFNL6P",
-  };
-  // Initialize Firebase
-  if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-  }
   // Configure FirebaseUI.
   const uiConfig = {
     // Popup signin flow rather than redirect flow.
     signInFlow: "popup",
     // Redirect to /signedIn after sign in is successful. Alternatively you can provide a callbacks.signInSuccess function.
-    signInSuccessUrl: "/admin",
+    signInSuccessUrl: "https://tuananhcx2000.github.io/ManageStudent_Typescript/",
     // We will display Google and Facebook as auth providers.
     signInOptions: [
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -61,7 +47,7 @@ const LoginPage = (props: LoginPageProps) => {
       if (user) {
         dispatch(login({ username: user?.displayName as string, password: "ok" }));
         console.log(user);
-        history.push("/admin");
+        console.log("test login");
       }
     });
     return () => unregisterAuthObserver();
