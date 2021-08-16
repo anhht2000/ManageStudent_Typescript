@@ -24,18 +24,18 @@ const LoginPage = (props: LoginPageProps) => {
   const dispatch = useAppDispatch();
   const { logging } = useAppSelector(authSelector);
   const history = useHistory();
-  const isSignIn = Boolean(localStorage.getItem("access_token"));
+  // const isSignIn = Boolean(localStorage.getItem("access_token"));
 
-  if (isSignIn) {
-    history.push(`/admin`);
-  }
+  // if (isSignIn) {
+  //   history.push(`/admin`);
+  // }
 
   // Configure FirebaseUI.
   const uiConfig = {
     // Popup signin flow rather than redirect flow.
     signInFlow: "popup",
     // Redirect to /signedIn after sign in is successful. Alternatively you can provide a callbacks.signInSuccess function.
-    signInSuccessUrl: "https://tuananhcx2000.github.io/ManageStudent_Typescript/",
+    signInSuccessUrl: "/admin",
     // We will display Google and Facebook as auth providers.
     signInOptions: [
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
