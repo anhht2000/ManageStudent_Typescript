@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ManageStudent_Typescript/static/css/main.c57ddfaf.chunk.css",
-    "main.js": "/ManageStudent_Typescript/static/js/main.161b860b.chunk.js",
-    "main.js.map": "/ManageStudent_Typescript/static/js/main.161b860b.chunk.js.map",
+    "main.js": "/ManageStudent_Typescript/static/js/main.6bf4a85d.chunk.js",
+    "main.js.map": "/ManageStudent_Typescript/static/js/main.6bf4a85d.chunk.js.map",
     "runtime-main.js": "/ManageStudent_Typescript/static/js/runtime-main.9b2f3911.js",
     "runtime-main.js.map": "/ManageStudent_Typescript/static/js/runtime-main.9b2f3911.js.map",
     "static/css/2.4f453ccb.chunk.css": "/ManageStudent_Typescript/static/css/2.4f453ccb.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.4f453ccb.chunk.css",
     "static/js/2.190c058e.chunk.js",
     "static/css/main.c57ddfaf.chunk.css",
-    "static/js/main.161b860b.chunk.js"
+    "static/js/main.6bf4a85d.chunk.js"
   ]
 }
