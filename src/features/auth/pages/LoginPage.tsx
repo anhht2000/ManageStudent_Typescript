@@ -61,6 +61,7 @@ const LoginPage = (props: LoginPageProps) => {
       if (user) {
         dispatch(login({ username: user?.displayName as string, password: "ok" }));
         console.log(user);
+        history.push("/admin");
       }
     });
     return () => unregisterAuthObserver();
